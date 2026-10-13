@@ -1,0 +1,39 @@
+body{
+    background: antiquewhite;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap:10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 70px;
+}
+.box{
+    height:100px;
+    width: 100px;
+    background: gray;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+}
+#reset{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: gray;
+}
+#reset_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+h1{
+
+    text-align: center;
+}
+.hide{
+    font-family:'orbitron',sans-serif;
+    text-align: center  ;
+    display:none;
+}
